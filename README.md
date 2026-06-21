@@ -13,6 +13,9 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
+```
+Uruchamianie z innym plikiem
+```bash
 python main.py ścieżka/do/pliku.csv
 ```
 
