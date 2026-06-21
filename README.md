@@ -49,7 +49,7 @@ flake8 src main.py tests conftest.py
 
 | Wzorzec       | Zastosowanie                                                         |
 | ------------- | -------------------------------------------------------------------- |
-| **Strategy**  | `Analyzer` (ABC) i podklasy - wymienne algorytmy analizy.            |
-| **Observer**  | Sygnały/sloty Qt (`filters_changed`, `analysis_selected`).           |
-| **Singleton** | `DataLoader` - dane wczytywane raz, współdzielone.                   |
-| **Facade**    | `DataPipeline` - ukrywa potok load -> clean za jednym konstruktorem. |
+| **Strategy**  | `Analyzer` i podklasy                                                |
+| **Observer**  | Sygnały/sloty Qt (`filters_changed`, `analysis_selected`)            |
+| **Singleton** | `DataLoader`                                                         |
+| **Facade**    | `DataPipeline`                                                       |
